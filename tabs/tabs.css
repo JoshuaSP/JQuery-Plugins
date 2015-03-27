@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.tabs a.active {
+  font-weight: bold;
+}
+
+div.tab-pane {
+  opacity: 0;
+  display: none;
+}
+
+div.tab-pane.active {
+  display: block;
+  opacity: 1;
+}
+
+.content-tabs {
+  margin-top: 50px;
+}
+
+div.transitioning {
+  transition: opacity 0.5s;
+  display: block;
+}
